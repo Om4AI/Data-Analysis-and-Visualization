@@ -1,3 +1,5 @@
+### Module 1 - Important functions and key points
+
 1. **sheet_name** parameter in **pd.read_excel** is for specifying the sheet name from the excel sheet which has to be imported as a Pandas Dataframe. If the name is not given, then the integers also work as reference for the sheet_number. 
 2. Default format of **df.columns - pandas.core. indexes.base.Index       ||      df.index - pandas.core.indexes.range.RangeIndex**
 3. **df.sum(axis = 1/0)** - Parameter of Axis better understanding (This is reverse to the general understanding of Axis parameter) 
@@ -15,3 +17,5 @@ Axis parameter in Pandas has a specific usage to define whether the operation ha
 4. **plt.show( )** - Used to show the updates made to the visualization
 5. **df.plot(kind=”line”)** - This plots the index column on the ******X-axis****** & the each **column as a different Line**
 6. **df.sort_values(by=column_name, ascending = True/False)** - Sorts the dataset according to the given conditions
+
+---
