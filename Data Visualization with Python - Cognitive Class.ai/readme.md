@@ -33,7 +33,7 @@ Axis parameter in Pandas has a specific usage to define whether the operation ha
 ```python
 count, bin_edges = np.histogram(df_3, 15)
 
-# Unstacked histogram
+# Plot histogram
 df_3.plot(kind="hist", 
           figsize=(10,6), 
           bins=15, 
